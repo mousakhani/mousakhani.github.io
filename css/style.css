@@ -1,42 +1,96 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/Yekan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-a{
-    text-decoration: none;
-    color:#ccc;
-}
-a:hover{
-    color:#eeeeee;
-}
-.container{
-    display:flex;
-    flex-direction:row;
-    height: 100vh;
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/Vazir.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.right{
-    padding: 5px;
-    width:20%;
-    display:flex;
-    flex-direction: column;
-    background-color:#a76829;
+@font-face {
+  font-family: shabnam;
+  src: url("../fonts/Shabnam.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.left{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+a:hover {
+  color: #eeeeee;
+}
+.container {
+  font-family: "vazir";
+  display: flex;
+  flex-direction: row;
+  padding-right: 5%;
+  padding-left:5%;
+}
+
+.right {
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 10px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: #a76829;
+}
+
+.right-header {
+  padding: 5px;
+  padding-right: 50px;
+}
+.right-contact{
     display: flex;
     flex-direction: column;
-    padding: 0 5px;
+    direction: ltr;
+    padding-bottom:10px;
 }
-
-img{
-    align-self:center;
-    width:200px;
-    height:200px;
-}
-
-.contact-content, .contact{
+.personal-info{
     display: flex;
-    flex: column;
+    flex-direction:column;
+    padding-right: 10px;
+    padding-bottom:10px;
+    color: #eee;
+}
+.langs{
+    padding-right: 10px;
+    display:flex;
+    flex-direction:column;
+    color:#eee;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+img {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+}
+
+.contact-content,
+.contact {
+  display: flex;
+  flex: column;
 }
