@@ -80,7 +80,7 @@ a:hover {
 .left {
   display: flex;
   flex-direction: column;
-  padding: 0 5px;
+  padding:10px;
 }
 
 img {
@@ -93,4 +93,62 @@ img {
 .contact {
   display: flex;
   flex: column;
+}
+
+.about{
+    padding-bottom: 5px;
+}
+
+table{
+    width:100%;
+    margin-right: auto;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+td{
+    width:30%;
+    padding:3px;
+}
+
+tr:nth-child(even){
+    background-color: #8bb058;
+}
+tr:nth-child(even):hover{
+    background-color: #9bb17c;
+}
+
+tr:nth-child(odd){
+    background-color: #509dabd4;
+}
+tr:nth-child(odd):hover{
+    background-color:#70b4c0d4;
+}
+
+td:nth-child(even){
+    width:60%;
+}
+
+h4{
+    padding:5px 0;
+}
+
+.projects{
+    padding:5px 0;
+    width:100%;
+}
+
+
+a.url{
+    color: #303399ac;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top:20px;
+    padding-bottom:0px;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+a.url:hover{
+    color: #6d6c6c;
 }
