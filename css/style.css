@@ -24,7 +24,7 @@ a:hover {
 .container {
   font-family: "vazir";
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   padding-right: 5%;
   padding-left: 5%;
 }
