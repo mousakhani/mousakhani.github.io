@@ -18,6 +18,7 @@ a {
   text-decoration: none;
   color: #ccc;
 }
+
 a:hover {
   color: #eeeeee;
 }
@@ -140,6 +141,14 @@ a.url {
 
 a.url:hover {
   color: #6d6c6c;
+}
+
+p a, li a{
+  color:rgb(79, 173, 166);
+}
+
+p a:hover, li a:hover{
+  color:rgb(21, 109, 252);
 }
 
 @media screen and (min-width: 720px) {
