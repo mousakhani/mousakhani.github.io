@@ -143,11 +143,11 @@ a.url:hover {
   color: #6d6c6c;
 }
 
-p a, li a{
+.content-link{
   color:rgb(79, 173, 166);
 }
 
-p a:hover, li a:hover{
+.content-link:hover{
   color:rgb(21, 109, 252);
 }
 
